@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="5dp">
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/nullline"
+        android:layout_below="@id/toolbar"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_below="@id/nullline"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:text="Hello world"
+        android:background="?attr/colorPrimary"
+        android:elevation="2dp"/>
+
+    <TextView
+        android:id="@+id/nullline2"
+        android:layout_below="@id/text1"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_below="@id/nullline2"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:text="Hello world"
+        android:background="?attr/colorPrimary"
+        android:elevation="2dp"/>
+
+    <TextView
+        android:id="@+id/nullline3"
+        android:layout_below="@id/text2"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:layout_below="@id/nullline3"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Hello world"
+        android:background="?attr/colorPrimary"
+        android:elevation="2dp"/>
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/bottombar"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/divider"
+        android:elevation="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="50dp"
+            android:text="主页"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="50dp"
+            android:text="新闻"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="50dp"
+            android:text="我"/>
+    </android.support.v7.widget.Toolbar>
+
+</RelativeLayout>

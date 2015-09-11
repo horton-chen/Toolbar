@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.NoActionBar">
+        <!-- Actionbar color -->
+        <item name="colorPrimary">@color/primary</item>
+        <!-- Status bar color -->
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <!-- Window color -->
+        <item name="android:windowBackground">@color/windowBackground</item>
+    </style>
+
+</resources>
