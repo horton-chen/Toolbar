@@ -22,8 +22,7 @@
 
             <ImageView
                 android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:background="@drawable/truthunter_100px"/>
+                android:layout_height="70dp"/>
 
             <Button
                 android:layout_width="match_parent"
